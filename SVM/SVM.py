@@ -55,10 +55,15 @@ def irissvm(flower1, flower2, feature1, feature2):
     plot_estimator(svc, X, y)
     plt.show()
 
+#first 2 flowers, variable pairs
 irissvm(0, 100, 0, 2)
 irissvm(0, 100, 1, 3)
 irissvm(0, 100, 2, 4)
+#second and third flowers
 irissvm(50, 150, 0, 2)
 irissvm(50, 150, 1, 3)
 irissvm(50, 150, 2, 4)
-
+#all three flowers
+irissvm(0, 150, 0, 2)
+irissvm(0, 150, 1, 3)
+irissvm(0, 150, 2, 4)
