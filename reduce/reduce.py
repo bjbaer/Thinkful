@@ -62,3 +62,6 @@ def KNN(idx, k, x, y):
 
 KNN(5, 10, X_r[:,0], X_r[:,1])
 KNN(132, 10, X_r2[:,0], X_r2[:,1])
+
+
+    cur.execute('INSERT INTO available_bikes (execution_time) VALUES (?)', (exec_time.strftime('%s'),))
